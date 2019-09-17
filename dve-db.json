@@ -1,0 +1,20 @@
+{
+    projects: [
+        { id: 0, title: 'Voloss NTV' },
+        { id: 1, title: 'Dve' },
+    ],
+    workers: [
+        { id: 0, name: 'Manol' },
+        { id: 1, name: 'Radoslav' },
+    ],
+    expenses: [
+        { id: 0, project_id: 0, worker_id: 0, budgetCategory_id: 0, date: '28-07-2019', description: 'Parking', amount: '30', currency: 'EUR', vat: '2.5'},
+        { id: 1, project_id: 0, worker_id: 1, budgetCategory_id: 1, date: '29-07-2019', description: 'Hotel', amount: '50', currency: 'EUR', vat: '2.5'},
+        { id: 2, project_id: 1, worker_id: 1, budgetCategory_id: 0, date: '30-07-2019', description: 'Hotel', amount: '50', currency: 'EUR', vat: '2.5'},
+    ],
+    budgetCategorys: [
+        { id: 0, name: 'BG-GR Productions' },
+        { id: 1, name: 'Cat 2' },
+        { id: 2, name: 'Cat 3' },
+    ],
+}
